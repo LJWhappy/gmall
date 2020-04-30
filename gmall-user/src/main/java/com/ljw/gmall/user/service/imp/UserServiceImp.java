@@ -47,4 +47,24 @@ public class UserServiceImp  implements UserService {
 //        umsMember.setBirthday();
         return 0;
     }
+
+    @Override
+    public UmsMember login(UmsMember umsMember) {
+        return null;
+    }
+
+    @Override
+    public void addUserToken(String token, String memberId) {
+
+    }
+
+    @Override
+    public void addOauthUser(UmsMember umsMember) {
+
+    }
+
+    @Override
+    public UmsMember checkOauthUser(UmsMember umsCheck) {
+        return null;
+    }
 }
