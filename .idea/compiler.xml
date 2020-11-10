@@ -10,8 +10,9 @@
         <module name="gmall-manager-service" />
         <module name="gmall-common-util" />
         <module name="demo" />
-        <module name="gmall-item-web" />
-        <module name="gmall-user-web" />
+        <module name="chartroom" />
+        <module name="gmall-redission-test" />
+        <module name="gmall-search-service" />
         <module name="gmall-order-service" />
         <module name="fastdfs-client-java" />
         <module name="gmall-cart-service" />
@@ -19,17 +20,19 @@
         <module name="gmall-order-web" />
         <module name="gmall-manager-web" />
         <module name="gmall-payservice" />
-        <module name="gmall-cart-web" />
         <module name="gmall-user-service" />
         <module name="gmall-passport-web" />
-        <module name="gmall-search-service" />
-        <module name="gmall-redission-test" />
+        <module name="gmall-service-util" />
+        <module name="gmall-cart-web" />
+        <module name="gmall-user-web" />
         <module name="gmall-search-web" />
         <module name="gmall-seckill" />
-        <module name="gmall-service-util" />
+        <module name="gmall-item-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chartroom" target="1.8" />
+      <module name="comgmalltset" target="1.5" />
       <module name="demo" target="1.8" />
       <module name="fastdfs-client-java" target="1.6" />
       <module name="gmall-api" target="1.5" />
@@ -59,6 +62,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="chartroom" options="-parameters" />
       <module name="demo" options="" />
       <module name="gmall-cart-service" options="" />
       <module name="gmall-cart-web" options="" />

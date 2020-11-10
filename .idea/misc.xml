@@ -28,6 +28,7 @@
         <option value="$PROJECT_DIR$/gmall-order-service/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-payservice/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-seckill/pom.xml" />
+        <option value="$PROJECT_DIR$/chartroom/pom.xml" />
       </list>
     </option>
   </component>
